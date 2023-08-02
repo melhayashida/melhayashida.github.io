@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places to Rollerskate in Metro Atlanta</title>
+
+    <!-- leaflet css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="map"></div>
+</body>
+
+</html>
+
+<!-- leaflet js -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+<script>
+    // map initialization
+    var map = L.map('map').setView([33.76, -84.39], 10);
+
+    // tiles
+    var Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 20,
+        ext: 'png'
+    });
+
+    Stamen_TonerLite.addTo(map)
+
+    // marker
+
+    var myIcon = L.icon({
+        iconUrl: 'Images/roller-skate-clipart.svg',
+        iconSize: [40, 40],
+    });
+
+    var singleMarker = L.marker([34.08, -84.52], { icon: myIcon });
+    singleMarker.bindPopup('Hot Wheels Skate Center').openPopup();
+    singleMarker.addTo(map);
+
+    var otherMarker = L.marker([34.01, -84.61], { icon: myIcon });
+    otherMarker.bindPopup('Sparkles Family Fun Center, Kennesaw').openPopup();
+    otherMarker.addTo(map);
+
+    var thirdMarker = L.marker([33.87, -84.53], { icon: myIcon });
+    thirdMarker.bindPopup('Sparkles Family Fun Center, Smyrna').openPopup();
+    thirdMarker.addTo(map);
+
+    console.log(singleMarker.toGeoJSON())
+
+
+
+
+</script>
