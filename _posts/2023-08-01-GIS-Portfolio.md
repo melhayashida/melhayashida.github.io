@@ -124,7 +124,7 @@ This map shows veteran/active duty adaptive recreation program participants.
 ### Simple Mapbox Webmap
 This is a very, very simple web map I built for fun. It uses Mapbox GL JS and shows the location, name, and address of Metro Parks Tacoma properties. I've always used Esri tools to create maps, so I wanted to try something different. I look forward to learning more about Mapbox's capabilities.
 
-To view the map, click [here](/mapboxexamples/example1.html).
+To view the map, click <a href="/mapboxexamples/example1.html" target="_blank">***here***</a>.
 
 [Return to top](#jump-to-section)
 
