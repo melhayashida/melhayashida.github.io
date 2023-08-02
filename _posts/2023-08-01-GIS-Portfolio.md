@@ -157,7 +157,7 @@ Please see Appendix C in [this PDF](/assets/48011 Prisoners Harbor FEIS Appendic
 ### Simple Leaflet Webmap
 This is another very, very simple web map I built for fun. It uses leaflet and shows a few roller rink locations in the Atlanta area.
 
-To view the map, click <a href="/leafletexamples/leafletexample1.html" target="_blank">***here***</a>.
+To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">***here***</a>.
 
 [Return to top](#jump-to-section)
 
