@@ -33,8 +33,9 @@ I've included a few screenshots and links of my GIS work below. Feedback, commen
 ### COVID Case and Contact Management System
 With my GIS and epidemiologist coworkers, I maintained and built dashboards, web maps, and web apps that fed into this COVID case and contact management system. At the peak of COVID response, more than 150 staff members used this system.
 
-<p align="center">
-<img width="80%" height="80%" src="/assets/COVIDDashboardEntryPage.png">
+
+<p align="center" style="text-align: center;">
+  <img width="80%" height="80%" src="/assets/COVIDDashboardEntryPage.png">
 </p>
 
 ## Local Parks and Utilities
