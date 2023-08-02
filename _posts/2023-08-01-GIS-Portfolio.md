@@ -27,6 +27,7 @@ I've included a few screenshots and links of my GIS work below. Feedback, commen
 - [Public Health](#public-health)
 - [Local Parks and Utilities](#local-parks-and-utilities)
 - [National Parks](#national-parks)
+- [For Fun](#for-fun)
 
 ## Public Health
 
@@ -126,11 +127,6 @@ This is a very, very simple web map I built for fun. It uses Mapbox GL JS and sh
 
 To view the map, click <a href="/mapboxexamples/example1.html" target="_blank">***here***</a>.
 
-### Simple Leaflet Webmap
-This is another very, very simple web map I built for fun. It uses leaflet and shows a few roller rink locations in the Atlanta area.
-
-To view the map, click <a href="/leafletexamples/leafletexample1.html" target="_blank">***here***</a>.
-
 [Return to top](#jump-to-section)
 
 ## National Parks
@@ -155,5 +151,16 @@ As an intern with Channel Islands National Park, I used GIS to aid in vegetation
 Please see Appendix C in [this PDF](/assets/48011 Prisoners Harbor FEIS Appendicies.pdf).
 
 [Return to top](#jump-to-section)
+
+## For Fun
+
+### Simple Leaflet Webmap
+This is another very, very simple web map I built for fun. It uses leaflet and shows a few roller rink locations in the Atlanta area.
+
+To view the map, click <a href="/leafletexamples/leafletexample1.html" target="_blank">***here***</a>.
+
+[Return to top](#jump-to-section)
+
+
 
 
