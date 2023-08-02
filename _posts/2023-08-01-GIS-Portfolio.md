@@ -131,7 +131,7 @@ To view the map, click [here](/mapboxexamples/example1.html).
 ## National Parks
 
 ### Anacapa Island Vegetation Transects Map
-I made this (rather old-fashioned looking map!) map many years ago as an intern with Channel Islands National Park. It's not my best design work, but it provided the information the biologists wanted to see.
+I made this (rather old-fashioned looking!) map many years ago as an intern with Channel Islands National Park. It's not my best design work, but it provided the information the biologists wanted to see.
 
 <p align="center">
 <img width="60%" height="60%" src="/assets/anacapa_vts.jpg">
