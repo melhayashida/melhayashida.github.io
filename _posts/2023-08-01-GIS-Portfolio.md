@@ -32,7 +32,7 @@ I've included a few examples of my GIS work below. Feedback, comments, and ques
 ### Park Features Viewer
 I created this app for park staff so they could explore park amenities and infrastructure (fences, gates, baseball fields, picnic tables, trails, etc.).
 
-<p align="center">
+<p align="center"">
 <img width="80%" height="80%" src="/assets/DistrictAssets_WebApp_Crop.PNG">
 </p>
 
