@@ -102,7 +102,7 @@ I made this Esri Story Map to visualize areas within 10 and 15 minute walks from
 ### Simple Mapbox Webmap
 This is a very, very simple web map I built with Mapbox tiles and Mapbox GL JS. It shows the location, name, and address of Metro Parks Tacoma properties. I've always used Esri tools to create maps, so I wanted to try something different. I look forward to learning more about Mapbox's capabilities.
 
-To view the map, click [here](https://melhayashida.github.io/GIS_Portfolio/webmaps/webmap1.html).
+To view the map, click [here](webmap1.html).
 
 [Return to top](#jump-to-section)
 
