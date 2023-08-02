@@ -126,6 +126,11 @@ This is a very, very simple web map I built for fun. It uses Mapbox GL JS and sh
 
 To view the map, click <a href="/mapboxexamples/example1.html" target="_blank">***here***</a>.
 
+### Simple Leaflet Webmap
+This is another very, very simple web map I built for fun. It uses leaflet and shows a few roller rink locations in the Atlanta area.
+
+To view the map, click <a href="/leafletexamples/leafletexample1.html" target="_blank">***here***</a>.
+
 [Return to top](#jump-to-section)
 
 ## National Parks
