@@ -32,7 +32,7 @@ I've included a few examples of my GIS work below. Feedback, comments, and ques
 ### Park Features Viewer
 I created this app for park staff so they could explore park amenities and infrastructure (fences, gates, baseball fields, picnic tables, trails, etc.).
 
-[ParkFeaturesViewer](/assets/DistrictAssets_WebApp_Crop.PNG)
+![ParkFeaturesViewer](/assets/DistrictAssets_WebApp_Crop.PNG)
 
 ### Park Watch Reporting App
 I used Esri's Survey123 to allow park volunteers to submit information about park concerns (e.g. broken benches, downed trees). When volunteers submit this form, supervisors receive email notifications (thanks, Microsoft Flow!) and can track the concerns on a dashboard.
