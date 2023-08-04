@@ -5,8 +5,6 @@ layout: post
 categories: media
 ---
 
-## Portfolio
-
 #### Jump to Section
 - [Public Health](#public-health)
 - [Local Parks and Utilities](#local-parks-and-utilities)
