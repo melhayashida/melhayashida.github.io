@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Places to Rollerskate in Metro Atlanta</title>
+    <title>Rollerskating in Metro Atlanta</title>
 
     <!-- leaflet css -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
@@ -42,12 +42,12 @@
     // tiles
 
     var Stamen_Toner_Lite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
-	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	subdomains: 'abcd',
-	minZoom: 0,
-	maxZoom: 20,
-	ext: 'png'
-});
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 20,
+        ext: 'png'
+    });
 
     Stamen_Toner_Lite.addTo(map)
 
@@ -58,21 +58,33 @@
         iconSize: [40, 40],
     });
 
-    var marker1 = L.marker([34.08, -84.52], { icon: myIcon });
+    var marker1 = L.marker([34.075019471800346, -84.52450992676656], { icon: myIcon });
     marker1.bindPopup('<a href="https://hotwheelsskatecenter.com" target="_blank">Hot Wheels Skate Center</a>').openPopup();
     marker1.addTo(map);
 
-    var marker2 = L.marker([34.01, -84.61], { icon: myIcon });
+    var marker2 = L.marker([34.01158361640559, -84.60874453602385], { icon: myIcon });
     marker2.bindPopup('<a href="https://sparkleskennesaw.com" target="_blank">Sparkles Family Fun Center, Kennesaw</a>').openPopup();
     marker2.addTo(map);
 
-    var marker3 = L.marker([33.87, -84.53], { icon: myIcon });
+    var marker3 = L.marker([33.870283859646406, -84.53342882692853], { icon: myIcon });
     marker3.bindPopup('<a href="https://www.sparklessmyrna.com" target="_blank">Sparkles Family Fun Center, Smyrna</a>').openPopup();
     marker3.addTo(map);
 
-    var marker4 = L.marker([33.76, -84.50], { icon: myIcon });
+    var marker4 = L.marker([33.75563557062897, -84.49691253052332], { icon: myIcon });
     marker4.bindPopup('<a href="https://www.cascadeskating.com" target="_blank">Cascade Fun Center</a>').openPopup();
     marker4.addTo(map);
+
+    var marker5 = L.marker([33.60341561650006, -84.47034482117718], { icon: myIcon });
+    marker5.bindPopup('<a href="https://skatetowne.com" target="_blank">Skate Towne</a>').openPopup();
+    marker5.addTo(map);
+
+    var marker6 = L.marker([33.7078070501322, -84.21589830629725], { icon: myIcon });
+    marker6.bindPopup('<a href="https://goldenglide.com" target="_blank">Golden Glide Skating Rink</a>').openPopup();
+    marker6.addTo(map);
+
+    var marker7 = L.marker([33.92176425666871, -83.97172322529877], { icon: myIcon });
+    marker7.bindPopup('<a href="https://www.sparklesgwinnett.com" target="_blank">Sparkles Family Fun Center, Gwinnett</a>').openPopup();
+    marker7.addTo(map);
 
 
     console.log(singleMarker.toGeoJSON())
