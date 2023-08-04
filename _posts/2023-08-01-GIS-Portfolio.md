@@ -109,8 +109,6 @@ This is a very, very simple web map I built for fun. It uses Mapbox GL JS and sh
 
 To view the map, click <a href="/mapboxexamples/example1.html" target="_blank">**here**</a>.
 
-[Return to top](#jump-to-section)
-
 ### National Parks
 
 #### Anacapa Island Vegetation Transects Map
@@ -131,8 +129,6 @@ As an intern with Channel Islands National Park, I collected tree data at Smuggl
 As an intern with Channel Islands National Park, I used GIS to aid in vegetation planning for a fill disposal site on Santa Cruz Island.
 
 Please see Appendix C in [this PDF](/assets/48011 Prisoners Harbor FEIS Appendicies.pdf).
-
-[Return to top](#jump-to-section)
 
 ### Other
 
