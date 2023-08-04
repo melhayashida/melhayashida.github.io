@@ -125,7 +125,7 @@ This map shows veteran/active duty adaptive recreation program participants.
 ### Simple Mapbox Webmap
 This is a very, very simple web map I built for fun. It uses Mapbox GL JS and shows the location, name, and address of Metro Parks Tacoma properties. I've always used Esri tools to create maps, so I wanted to try something different. I look forward to learning more about Mapbox's capabilities.
 
-To view the map, click <a href="/mapboxexamples/example1.html" target="_blank">***here***</a>.
+To view the map, click <a href="/mapboxexamples/example1.html" target="_blank">**here**</a>.
 
 [Return to top](#jump-to-section)
 
@@ -154,10 +154,10 @@ Please see Appendix C in [this PDF](/assets/48011 Prisoners Harbor FEIS Appendic
 
 ## For Fun
 
-### Simple Leaflet Webmap
-This is another very, very simple web map I built for fun. It uses leaflet and shows a few roller rink locations in the Atlanta area.
+### Roller Skating Rinks in Metro Atlanta
+This is another very, very simple web map I built for fun. It uses Leaflet and Open Street Map to display a few roller rink locations in the Atlanta area.
 
-To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">***here***</a>.
+To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a>.
 
 [Return to top](#jump-to-section)
 
