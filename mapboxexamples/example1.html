@@ -11,6 +11,7 @@
         body {
             margin: 0;
             padding: 0;
+            background-color: rgb(33, 34, 40)
         }
 
         #map {
@@ -25,7 +26,7 @@
 <body>
     <div id='map'></div>
     <script>
-        // The value for 'accessToken' begins with 'pk...'
+        // Set token
         mapboxgl.accessToken = 'pk.eyJ1IjoibWhheWFzaGlkYSIsImEiOiJja2ZvZHhoOGwwMTgzMnJvM2x1NXBnbHM4In0.9EujO6nnQp0bbHiDeGkpsQ';
         const map = new mapboxgl.Map({
             container: 'map',
@@ -36,7 +37,7 @@
             attributionControl: false
         });
 
-        // Add an event listener that runs when a user clicks on the map element.
+        // Add an event listener that runs when a user clicks on the map element
 
         map.on('click', (event) => {
             // If the user clicked on one of your markers, get its information.
