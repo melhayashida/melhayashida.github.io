@@ -29,7 +29,7 @@
         mapboxgl.accessToken = 'pk.eyJ1IjoibWhheWFzaGlkYSIsImEiOiJja2ZvZHhoOGwwMTgzMnJvM2x1NXBnbHM4In0.9EujO6nnQp0bbHiDeGkpsQ';
         const map = new mapboxgl.Map({
             container: 'map',
-            // Replace YOUR_STYLE_URL with your style URL.
+            // style URL
             style: 'mapbox://styles/mhayashida/clkn7z75c00nd01qk7errgn33',
             center: [-122.505580, 47.272526],
             zoom: 10.7,
@@ -39,9 +39,9 @@
         // Add an event listener that runs when a user clicks on the map element
 
         map.on('click', (event) => {
-            // If the user clicked on one of your markers, get its information.
+            // When the user clicks on a marker, get its information.
             const features = map.queryRenderedFeatures(event.point, {
-                layers: ['mpt-parks'] // replace with your layer name
+                layers: ['mpt-parks'] // layer name
             });
             if (!features.length) {
                 return;
@@ -67,6 +67,8 @@
         map.on('mouseleave', 'mpt-parks', () => {
             map.getCanvas().style.cursor = '';
         });
+
+        // Add map controls and customize the attribution
 
         map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
         map.addControl(new mapboxgl.NavigationControl(), 'top-right');
