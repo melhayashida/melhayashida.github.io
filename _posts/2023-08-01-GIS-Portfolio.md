@@ -13,12 +13,12 @@ categories: media
 
 ### For Fun
 
-#### Mexico City Building Height
+#### Mexico City Building Heights Map
 I played around with some symbology settings in Mapbox to show building height along Mexico City's Paseo de la Reforma. (Unfortunately, there appear to be a lot of building polygons missing in this area.)
 
 <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/mhayashida/cll5nyagm00gg01qneb93bda7.html?title=false&access_token=pk.eyJ1IjoibWhheWFzaGlkYSIsImEiOiJja2ZvZHhoOGwwMTgzMnJvM2x1NXBnbHM4In0.9EujO6nnQp0bbHiDeGkpsQ&zoomwheel=false#16.04/19.425371/-99.171797/29.6/66" title="MexicoCity_PaseodelaReforma_3DBuildings" style="border:none;"></iframe>
 
-#### Roller Skating Rinks in Metro Atlanta
+#### Roller Skating Rinks in Metro Atlanta Map
 This is another very, very simple web map I built for fun. It uses Leaflet and Open Street Map to display a few roller rink locations in the Atlanta area.
 
 To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a> or see below.
@@ -55,7 +55,7 @@ This app provided urban forestry staff with an easy way to batch edit tree infor
 <img width="80%" height="80%" alt="Tree Inventory Desktop App" src="/assets/TreeInventory_DesktopApp_Crop.PNG">
 </p>
 
-#### Mobile Tree Data Collection
+#### Mobile Tree Data Collection App
 I maintained this mobile tool that allowed forestry staff to track trees, inspections, and simple work orders.
 
 <p>
@@ -69,7 +69,7 @@ I designed this web map to show suggested walking routes for SAMI students. SAMI
 <img width="50%" height="50%" alt="Safe Walking Routes Map" src="/assets/SAMI_walkingroutes_crop.PNG">
 </p>
 
-#### Waterfront Mileage
+#### Waterfront Mileage Map
 This web map just shows mileage along a trail system.
 
 <p>
@@ -132,7 +132,7 @@ I made this (rather old-fashioned looking!) map many years ago as an intern with
 <img width="60%" height="60%" alt="Anacapa Island Vegetation Transects Map" src="/assets/anacapa_vts.jpg">
 </p>
 
-#### Orchard Map
+#### Orchard Tree Health Map
 As an intern with Channel Islands National Park, I collected tree data at Smuggler's Cove and used it to create the following map. This old map is also not my best design work, but it was used internally and didn't need to be beautiful.
 
 <p>
