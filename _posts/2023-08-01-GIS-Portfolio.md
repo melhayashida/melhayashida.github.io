@@ -21,7 +21,9 @@ I played around with some symbology settings in Mapbox to show building height a
 #### Roller Skating Rinks in Metro Atlanta
 This is another very, very simple web map I built for fun. It uses Leaflet and Open Street Map to display a few roller rink locations in the Atlanta area.
 
-To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a>.
+To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a> or see below.
+
+<iframe width='100%' height='400px' src="/leafletexamples/leafletmapexample1.html" title="Roller_Skating_Rinks_ATL" style="border:none;"></iframe>
 
 ### Public Health
 
