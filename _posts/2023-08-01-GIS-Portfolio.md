@@ -6,10 +6,22 @@ categories: media
 ---
 
 #### Jump to Section
+- [For Fun](#for-fun)
 - [Public Health](#public-health)
 - [Local Parks and Utilities](#local-parks-and-utilities)
 - [National Parks](#national-parks)
-- [Other](#other)
+
+### For Fun
+
+#### Mexico City Building Height
+I played around with some symbology settings in Mapbox to show building height along Mexico City's Paseo de la Reforma. (Unfortunately, there appear to be a lot of building polygons missing in this area.)
+
+<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/mhayashida/cll5nyagm00gg01qneb93bda7.html?title=false&access_token=pk.eyJ1IjoibWhheWFzaGlkYSIsImEiOiJja2ZvZHhoOGwwMTgzMnJvM2x1NXBnbHM4In0.9EujO6nnQp0bbHiDeGkpsQ&zoomwheel=false#16.04/19.425371/-99.171797/29.6/66" title="MexicoCity_PaseodelaReforma_3DBuildings" style="border:none;"></iframe>
+
+#### Roller Skating Rinks in Metro Atlanta
+This is another very, very simple web map I built for fun. It uses Leaflet and Open Street Map to display a few roller rink locations in the Atlanta area.
+
+To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a>.
 
 ### Public Health
 
@@ -129,18 +141,6 @@ As an intern with Channel Islands National Park, I collected tree data at Smuggl
 As an intern with Channel Islands National Park, I used GIS to aid in vegetation planning for a fill disposal site on Santa Cruz Island.
 
 Please see Appendix C in [this PDF](/assets/48011 Prisoners Harbor FEIS Appendicies.pdf).
-
-### Other
-
-#### Roller Skating Rinks in Metro Atlanta
-This is another very, very simple web map I built for fun. It uses Leaflet and Open Street Map to display a few roller rink locations in the Atlanta area.
-
-To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a>.
-
-#### Mexico City Building Height
-I played around with some symbology settings in Mapbox to show building height along Mexico City's Paseo de la Reforma. (Unfortunately, there appear to be a lot of building polygons missing in this area.)
-
-<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/mhayashida/cll5nyagm00gg01qneb93bda7.html?title=false&access_token=pk.eyJ1IjoibWhheWFzaGlkYSIsImEiOiJja2ZvZHhoOGwwMTgzMnJvM2x1NXBnbHM4In0.9EujO6nnQp0bbHiDeGkpsQ&zoomwheel=false#16.04/19.425371/-99.171797/29.6/66" title="MexicoCity_PaseodelaReforma_3DBuildings" style="border:none;"></iframe>
 
 [Return to top](#jump-to-section)
 
