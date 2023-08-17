@@ -23,7 +23,7 @@ This is another very, very simple web map I built for fun. It uses Leaflet and O
 
 To view the map, click <a href="/leafletexamples/leafletmapexample1.html" target="_blank">**here**</a> or see below.
 
-<iframe width='100%' height='400px' src="/leafletexamples/leafletmapexample1.html" title="Roller_Skating_Rinks_ATL" style="border:none;"></iframe>
+<iframe scrolling="no" width='100%' height='400px' src="/leafletexamples/leafletmapexample1.html" title="Roller_Skating_Rinks_ATL" style="border:none;"></iframe>
 
 ### Public Health
 
